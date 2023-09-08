@@ -46,7 +46,7 @@ const generateAccessToken = async (req,res) => {
         encodedParams.set('buyer_name', name);
         encodedParams.set('email', email);
         encodedParams.set('phone', `${phone}`);
-        encodedParams.set('redirect_url', 'http://tangen.io');
+        encodedParams.set('redirect_url', 'http://tangen.io/confirmation.html');
 
         const options = {
             method: 'POST',
